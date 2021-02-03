@@ -1,1 +1,4 @@
-
+env:
+  travis encrypt DOCKER_EMAIL=usrmail
+  travis encrypt DOCKER_USER=usrname
+  travis encrypt DOCKER_PASS=mdp
